@@ -19,7 +19,7 @@ function getOSinfo() {
     console.log('System:', type);
     console.log('Release:', release);
     console.log('CPU model:', cpu);
-    console.log('Uptime:', timeGenerator);
+    console.log('Uptime:', uptime);
     console.log('User name:', userInfo.username);
     console.log('Home dir:', userInfo.homedir);
 }
