@@ -12,4 +12,4 @@ Po wykonaniu zadania, umieść swoje rozwiązanie na Githubie i wyślij link do 
 
 
 
-Zdaje się, że wszystko jest ok poza funkcją timeGenerator() w module timeGenerator
+Zdaje się, że wszystko jest ok poza funkcją timeGenerator() w module (folder module) timeGenerator
