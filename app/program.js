@@ -2,8 +2,9 @@
 
 var os = require('os');
 var OSinfo = require('../modules/OSinfo');
-var timeGenerator = require('../modules/timeGenerator');
 var osInfoFunction = OSinfo.print();
+var timeGenerator = require('../modules/timeGenerator');
+var timeInfoFunction = timeGenerator.print();
 
 process.stdin.setEncoding('utf-8');
 process.stdin.on('readable', function () {
@@ -21,6 +22,7 @@ process.stdin.on('readable', function () {
             case '/getOSinfo':
                 OSinfo.print();
                 //getOSinfo();
+                timeGenerator.print();
             default:
                 process.stderr.write('Wrong instruction!\n');
         };

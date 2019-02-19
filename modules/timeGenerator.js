@@ -2,10 +2,10 @@ var os = require('os');
 var uptime = os.uptime();
 
 // Hours, minutes and seconds
-var hours = ~~(uptime / 3600);
-var minutes = ~~((uptime % 3600) / 60);
-var seconds = ~~uptime % 60;
-
+var hours = (uptime / 3600);
+var minutes = ((uptime % 3600) / 60);
+var seconds = uptime % 60;
+var time = timeGenerator();
 
 function timeGenerator() {
     if (uptime <= 3600) {
