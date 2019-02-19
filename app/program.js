@@ -20,9 +20,9 @@ process.stdin.on('readable', function () {
                 process.stdout.write('hello!\n');
                 break;
             case '/getOSinfo':
-                OSinfo.print();
-                //getOSinfo();
-                timeGenerator.print();
+                //OSinfo.print();
+                getOSinfo();
+                //timeGenerator.print();
             default:
                 process.stderr.write('Wrong instruction!\n');
         };
