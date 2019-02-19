@@ -21,8 +21,7 @@ function getOSinfo() {
 }
 
 exports.print = getOSinfo;
-exports.timeGenerator = timeGenerator;
-exports.getCPUDetails = getCPUDetails;
+//exports.getCPUDetails = getCPUDetails;
 
 //albo
 //module.exports = {
