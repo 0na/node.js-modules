@@ -2,18 +2,18 @@ var os = require('os');
 var uptime = os.uptime();
 
 // Hours, minutes and seconds
-var hours = (uptime / 3600);
-var minutes = ((uptime % 3600) / 60);
+var hours = (uptime / 3600).toFixed(0);
+var minutes = ((uptime % 3600) / 60).toFixed(0);
 var seconds = uptime % 60;
 var time = timeGenerator();
 
 function timeGenerator() {
     if (uptime <= 3600) {
-        (minutes + "min " + seconds + "sec");
+        var score = (minutes + "min " + seconds + "sec");
     } else {
-        (hours + "h " + minutes + "min " + seconds + "sec");
+        var score = (hours + "h " + minutes + "min " + seconds + "sec");
     };
-    console.log('Uptime: ', uptime);
+    console.log("Uptime :" + score);
 }
 
 exports.print = timeGenerator;
