@@ -11,4 +11,5 @@ Stwórz moduł, który będzie poprawnie formatował czas. Zależy nam na napisa
 Po wykonaniu zadania, umieść swoje rozwiązanie na Githubie i wyślij link do repozytorium mentorowi.
 
 
-Modul nazwalam timeGenerator.js i jest on w folderze modules. W tym module wrzucilam funkcje, o ktorej mowa wyzej jednak nie przeksztalca mi tego czasu w sposob jaki bym chciala
+
+Zdaje się, że wszystko jest ok poza funkcją timeGenerator() w module (folder module) timeGenerator
